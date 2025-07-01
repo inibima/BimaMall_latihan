@@ -39,6 +39,7 @@ Jalankan server backend menggunakan perintah berikut: node server.js
 Jalankan frontend dengan perintah berikut: npm run dev
 Akses aplikasi di http://localhost:5173.
 
+---
 
 ## Fitur Halaman
 ### 1. Login
