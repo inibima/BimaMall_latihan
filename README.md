@@ -65,3 +65,20 @@ Menampilkan daftar harga produk.
 ### 6. Navigasi
 
 Navigasi antarmuka yang dinamis dengan Vue Router. Header dan Footer digunakan untuk navigasi global.
+
+---
+
+## Cara Kerja
+### 1. Autentikasi:
+
+Data pengguna tersimpan di MongoDB menggunakan Mongoose.
+Token autentikasi disimpan di localStorage untuk menjaga sesi pengguna.
+### 2. Produk:
+
+Data produk diambil dari backend dan ditampilkan di halaman produk.
+Harga produk dapat diklik untuk pembelian.
+### 3. Navigasi:
+
+Vue Router digunakan untuk navigasi halaman.
+Middleware memastikan halaman tertentu hanya dapat diakses setelah login.
+
